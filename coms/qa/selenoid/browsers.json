@@ -1,0 +1,58 @@
+{
+    "chrome": {
+        "default": "105.0",
+        "versions": {
+            "105.0": {
+                "image": "selenoid/vnc:chrome_105.0",
+                "port": "4444",
+                "path": "/",
+                "tmpfs": {
+                    "/tmp": "size=512m"
+                },
+                "shmSize": 536870912
+            }
+        }
+    },
+    "safari": {
+        "default": "15.0",
+        "versions": {
+            "15.0": {
+                "image": "browsers/safari:15.0",
+                "port": "4444",
+                "path": "/",
+                "tmpfs": {
+                    "/tmp": "size=512m"
+                },
+                "shmSize": 536870912
+            }
+        }
+    },
+    "firefox": {
+        "default": "104.0",
+        "versions": {
+            "104.0": {
+                "image": "selenoid/vnc:firefox_104.0",
+                "port": "4444",
+                "path": "/",
+                "tmpfs": {
+                    "/tmp": "size=512m"
+                },
+                "shmSize": 536870912
+            }
+        }
+    },
+    "opera": {
+        "default": "90.0",
+        "versions": {
+            "90.0": {
+                "image": "selenoid/vnc:opera_90.0",
+                "port": "4444",
+                "path": "/",
+                "tmpfs": {
+                    "/tmp": "size=512m"
+                },
+                "shmSize": 536870912
+            }
+        }
+    }
+}
